@@ -422,6 +422,7 @@ main,
 
 .project-experience-grid {
   align-items: start;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
 }
 
 .column-title {
@@ -478,6 +479,75 @@ main,
 .project-info a:hover,
 .project-info a:focus-visible {
   text-decoration: underline;
+}
+
+.experience-card {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.experience-meta {
+  width: fit-content;
+  border: 1px solid rgba(125, 211, 252, 0.28);
+  border-radius: 999px;
+  padding: 0.25rem 0.6rem;
+  color: var(--soft);
+  background: rgba(125, 211, 252, 0.08);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.experience-card p {
+  margin-top: 0;
+}
+
+.experience-highlights {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.experience-highlights li::marker {
+  color: var(--teal);
+}
+
+.focus-panel {
+  margin-top: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, rgba(80, 211, 184, 0.12), rgba(125, 211, 252, 0.06));
+  box-shadow: var(--shadow);
+  padding: 1.2rem;
+}
+
+.focus-panel h3 {
+  margin: 0;
+  color: var(--text);
+  font-size: 1.05rem;
+}
+
+.focus-list {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.focus-list article {
+  border-left: 3px solid var(--teal);
+  padding-left: 0.85rem;
+}
+
+.focus-list strong {
+  color: var(--text);
+}
+
+.focus-list p {
+  margin: 0.3rem 0 0;
+  color: var(--muted);
+  line-height: 1.55;
 }
 
 .contact-section {

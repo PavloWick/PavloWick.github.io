@@ -1,5 +1,5 @@
 <script>
-  import { experience, projects } from "./portfolio.js";
+  import { experience, projectFocus, projects } from "./portfolio.js";
 </script>
 
 <section class="section projects-section" id="projects" aria-labelledby="projects-title">
@@ -39,10 +39,32 @@
         <div class="stack-grid">
           {#each experience as item}
             <article class="experience-card">
+              {#if item.meta}
+                <span class="experience-meta">{item.meta}</span>
+              {/if}
               <h4>{item.title}</h4>
               <p>{item.text}</p>
+              {#if item.highlights}
+                <ul class="experience-highlights">
+                  {#each item.highlights as highlight}
+                    <li>{highlight}</li>
+                  {/each}
+                </ul>
+              {/if}
             </article>
           {/each}
+        </div>
+
+        <div class="focus-panel" aria-labelledby="focus-title">
+          <h3 id="focus-title">What the projects show</h3>
+          <div class="focus-list">
+            {#each projectFocus as item}
+              <article>
+                <strong>{item.label}</strong>
+                <p>{item.text}</p>
+              </article>
+            {/each}
+          </div>
         </div>
       </div>
     </div>

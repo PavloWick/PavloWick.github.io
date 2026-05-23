@@ -79,11 +79,45 @@ export const projects = [
 export const experience = [
   {
     title: "Tech Startup Club",
-    text: "Collaborative student environment for learning, building, and discussing technical ideas and projects."
+    meta: "Student builder community",
+    text: "Collaborative student environment for learning, building, and discussing technical ideas and projects.",
+    highlights: [
+      "Participate in peer technical reviews and project planning discussions.",
+      "Use club time to explore product ideas, architecture tradeoffs, and implementation paths."
+    ]
   },
   {
     title: "UW Tacoma - B.A. Computer Science & Business Data Analytics (In Progress)",
-    text: "Developing a foundation in software engineering, systems thinking, and practical computer science problem solving."
+    meta: "Computer Science + Business Data Analytics",
+    text: "Developing a foundation in software engineering, systems thinking, and practical computer science problem solving.",
+    highlights: [
+      "Coursework and projects span programming, data, algorithms, systems, and applied problem solving.",
+      "Current focus areas include full-stack applications, low-level systems work, and security-aware software."
+    ]
+  },
+  {
+    title: "Hackathon Product Development",
+    meta: "GigFlow full-stack marketplace",
+    text: "Built and iterated on a production-style event marketplace with authentication, dashboards, search, messaging, and database-backed workflows.",
+    highlights: [
+      "Connected frontend user flows to FastAPI routes and SQL-backed marketplace data.",
+      "Shipped practical user-facing features under fast-changing requirements."
+    ]
+  }
+];
+
+export const projectFocus = [
+  {
+    label: "Full-stack apps",
+    text: "React, Svelte, FastAPI, routing, forms, dashboards, and API-backed workflows."
+  },
+  {
+    label: "Systems programming",
+    text: "C projects involving networking, file inspection, hashing, CLI tools, and Linux development."
+  },
+  {
+    label: "Data-aware design",
+    text: "PostgreSQL, SQLite, schema design, caching, and features built around searchable structured data."
   }
 ];
 
