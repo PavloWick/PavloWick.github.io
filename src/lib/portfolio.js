@@ -45,6 +45,14 @@ export const skills = [
 
 export const projects = [
   {
+    title: "GigFlow",
+    description:
+      "A full-stack event marketplace that connects planners with entertainers through event discovery, vendor profiles, applications, messaging, analytics, and a Smart Planner workflow.",
+    technologies: ["React", "FastAPI", "PostgreSQL", "SQLAlchemy"],
+    image: "/images/GigFlow.png",
+    link: "https://github.com/ncortes04/Hackathon-2026"
+  },
+  {
     title: "NetScan",
     description:
       "A Linux C network scanner that discovers local IPv4 devices with ARP requests and labels vendors from an OUI database.",
