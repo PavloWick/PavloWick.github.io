@@ -133,7 +133,7 @@ export const socials = [
     icon: "/images/icons/git.png"
   },
   {
-    href: "/images/PavloPuzik_Resume2026.pdf",
+    href: "/images/PavloPuzik_Resume.pdf",
     label: "Resume PDF",
     icon: "/images/icons/resume.png"
   }

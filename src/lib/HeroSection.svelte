@@ -16,7 +16,7 @@
     </p>
     <div class="cta-row">
       <a class="primary-action" href="#contact">Get In Touch</a>
-      <a class="secondary-action" href="/images/PavloPuzik_Resume2026.pdf" target="_blank" rel="noreferrer">
+      <a class="secondary-action" href="/images/PavloPuzik_Resume.pdf" target="_blank" rel="noreferrer">
         View Resume
       </a>
     </div>
